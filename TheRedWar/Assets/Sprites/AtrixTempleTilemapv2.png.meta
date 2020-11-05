@@ -1,0 +1,1763 @@
+fileFormatVersion: 2
+guid: 4f3d821ef82de92499b7f60f5e0ebbd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5351948023056632512
+    second: AtrixTempleTilemapv2_0
+  - first:
+      213: 7246091080730997921
+    second: AtrixTempleTilemapv2_1
+  - first:
+      213: 2417436059997340845
+    second: AtrixTempleTilemapv2_2
+  - first:
+      213: -1808215799640685252
+    second: AtrixTempleTilemapv2_3
+  - first:
+      213: -8779495634234161579
+    second: AtrixTempleTilemapv2_4
+  - first:
+      213: -2795621942793526620
+    second: AtrixTempleTilemapv2_5
+  - first:
+      213: -2205104276486925913
+    second: AtrixTempleTilemapv2_6
+  - first:
+      213: -7151069931947356143
+    second: AtrixTempleTilemapv2_7
+  - first:
+      213: 9186110292176828284
+    second: AtrixTempleTilemapv2_8
+  - first:
+      213: 2699600922339660314
+    second: AtrixTempleTilemapv2_9
+  - first:
+      213: 3552541054407491998
+    second: AtrixTempleTilemapv2_10
+  - first:
+      213: -4130381904884212974
+    second: AtrixTempleTilemapv2_11
+  - first:
+      213: -2194332887129775084
+    second: AtrixTempleTilemapv2_12
+  - first:
+      213: -8638894200774406258
+    second: AtrixTempleTilemapv2_13
+  - first:
+      213: 6196774432145761354
+    second: AtrixTempleTilemapv2_14
+  - first:
+      213: 431560075599699838
+    second: AtrixTempleTilemapv2_15
+  - first:
+      213: -4439093807445190953
+    second: AtrixTempleTilemapv2_16
+  - first:
+      213: 6848308004494904781
+    second: AtrixTempleTilemapv2_17
+  - first:
+      213: 7148812408446757368
+    second: AtrixTempleTilemapv2_18
+  - first:
+      213: 5976771695304123805
+    second: AtrixTempleTilemapv2_19
+  - first:
+      213: 1320205753343023814
+    second: AtrixTempleTilemapv2_20
+  - first:
+      213: 4590459933213518385
+    second: AtrixTempleTilemapv2_21
+  - first:
+      213: 6844916989519380688
+    second: AtrixTempleTilemapv2_22
+  - first:
+      213: -8451948072938161851
+    second: AtrixTempleTilemapv2_23
+  - first:
+      213: 8280203280537081194
+    second: AtrixTempleTilemapv2_24
+  - first:
+      213: 5670445668127181399
+    second: AtrixTempleTilemapv2_25
+  - first:
+      213: -6953666847096088648
+    second: AtrixTempleTilemapv2_26
+  - first:
+      213: 1401921068754902766
+    second: AtrixTempleTilemapv2_27
+  - first:
+      213: 6684523413041251609
+    second: AtrixTempleTilemapv2_28
+  - first:
+      213: 2236846750416437376
+    second: AtrixTempleTilemapv2_29
+  - first:
+      213: -8311059223558535684
+    second: AtrixTempleTilemapv2_30
+  - first:
+      213: -6878455271299987973
+    second: AtrixTempleTilemapv2_31
+  - first:
+      213: 6525018986731856550
+    second: AtrixTempleTilemapv2_32
+  - first:
+      213: 7953932059439235094
+    second: AtrixTempleTilemapv2_33
+  - first:
+      213: -3304029412096362903
+    second: AtrixTempleTilemapv2_34
+  - first:
+      213: 8717730701467574649
+    second: AtrixTempleTilemapv2_35
+  - first:
+      213: -8183880365798690878
+    second: AtrixTempleTilemapv2_36
+  - first:
+      213: -7011904791881641202
+    second: AtrixTempleTilemapv2_37
+  - first:
+      213: 5017036467979891275
+    second: AtrixTempleTilemapv2_38
+  - first:
+      213: -7119386341454226869
+    second: AtrixTempleTilemapv2_39
+  - first:
+      213: -2637543487132310087
+    second: AtrixTempleTilemapv2_40
+  - first:
+      213: 3697912241707778366
+    second: AtrixTempleTilemapv2_41
+  - first:
+      213: 3670804327118202322
+    second: AtrixTempleTilemapv2_42
+  - first:
+      213: -5297086475268180158
+    second: AtrixTempleTilemapv2_43
+  - first:
+      213: -5087295335674620691
+    second: AtrixTempleTilemapv2_44
+  - first:
+      213: -956879550403980853
+    second: AtrixTempleTilemapv2_45
+  - first:
+      213: 6363804270448332599
+    second: AtrixTempleTilemapv2_46
+  - first:
+      213: 1093492718369351621
+    second: AtrixTempleTilemapv2_47
+  - first:
+      213: 1807137736397274913
+    second: AtrixTempleTilemapv2_48
+  - first:
+      213: -126629090289755168
+    second: AtrixTempleTilemapv2_49
+  - first:
+      213: -2835068693433023564
+    second: AtrixTempleTilemapv2_50
+  - first:
+      213: 826418047769694088
+    second: AtrixTempleTilemapv2_51
+  - first:
+      213: 9001975142233965092
+    second: AtrixTempleTilemapv2_52
+  - first:
+      213: -6579872987770178864
+    second: AtrixTempleTilemapv2_53
+  - first:
+      213: 1925315740990713140
+    second: AtrixTempleTilemapv2_54
+  - first:
+      213: -8584102566536935358
+    second: AtrixTempleTilemapv2_55
+  - first:
+      213: -2124633903566400382
+    second: AtrixTempleTilemapv2_56
+  - first:
+      213: -2540193437569021639
+    second: AtrixTempleTilemapv2_57
+  - first:
+      213: 8158347756376385897
+    second: AtrixTempleTilemapv2_58
+  - first:
+      213: -8555735577537374200
+    second: AtrixTempleTilemapv2_59
+  - first:
+      213: 402270354488303152
+    second: AtrixTempleTilemapv2_60
+  - first:
+      213: -3159215448768132578
+    second: AtrixTempleTilemapv2_0
+  - first:
+      213: 3728288371748516262
+    second: AtrixTempleTilemapv2_1
+  - first:
+      213: -7896259802717422323
+    second: AtrixTempleTilemapv2_2
+  - first:
+      213: -1270256444181507633
+    second: AtrixTempleTilemapv2_3
+  - first:
+      213: -6575516925893348648
+    second: AtrixTempleTilemapv2_4
+  - first:
+      213: 4509769223913147237
+    second: AtrixTempleTilemapv2_5
+  - first:
+      213: -2041643474820727322
+    second: AtrixTempleTilemapv2_6
+  - first:
+      213: -3531978126687328215
+    second: AtrixTempleTilemapv2_7
+  - first:
+      213: 7517279216363191997
+    second: AtrixTempleTilemapv2_8
+  - first:
+      213: -3917078423606125471
+    second: AtrixTempleTilemapv2_9
+  - first:
+      213: 1611036467013397518
+    second: AtrixTempleTilemapv2_10
+  - first:
+      213: 2716246965288112746
+    second: AtrixTempleTilemapv2_11
+  - first:
+      213: -1441743528495280021
+    second: AtrixTempleTilemapv2_12
+  - first:
+      213: -6794727358281159884
+    second: AtrixTempleTilemapv2_13
+  - first:
+      213: -838826713514842830
+    second: AtrixTempleTilemapv2_14
+  - first:
+      213: 2391934196194863192
+    second: AtrixTempleTilemapv2_15
+  - first:
+      213: 161868472004633839
+    second: AtrixTempleTilemapv2_16
+  - first:
+      213: -8096730800221791275
+    second: AtrixTempleTilemapv2_17
+  - first:
+      213: 2422729260098721080
+    second: AtrixTempleTilemapv2_18
+  - first:
+      213: 4500100401073102377
+    second: AtrixTempleTilemapv2_19
+  - first:
+      213: 570341092601978772
+    second: AtrixTempleTilemapv2_20
+  - first:
+      213: -8562734565069808609
+    second: AtrixTempleTilemapv2_21
+  - first:
+      213: -3053425268316742971
+    second: AtrixTempleTilemapv2_22
+  - first:
+      213: 8874629965061992048
+    second: AtrixTempleTilemapv2_23
+  - first:
+      213: -7581663572193053455
+    second: AtrixTempleTilemapv2_24
+  - first:
+      213: -7479566807226355097
+    second: AtrixTempleTilemapv2_25
+  - first:
+      213: 146377122555783097
+    second: AtrixTempleTilemapv2_26
+  - first:
+      213: 4764711963176663168
+    second: AtrixTempleTilemapv2_27
+  - first:
+      213: -6891589024740755249
+    second: AtrixTempleTilemapv2_28
+  - first:
+      213: -3961292997970836084
+    second: AtrixTempleTilemapv2_29
+  - first:
+      213: -1673360058463795116
+    second: AtrixTempleTilemapv2_30
+  - first:
+      213: -6535433913713983638
+    second: AtrixTempleTilemapv2_31
+  - first:
+      213: 7176069965950735531
+    second: AtrixTempleTilemapv2_32
+  - first:
+      213: 408342074873898677
+    second: AtrixTempleTilemapv2_33
+  - first:
+      213: 8861902248594460404
+    second: AtrixTempleTilemapv2_34
+  - first:
+      213: -2181487499634227931
+    second: AtrixTempleTilemapv2_35
+  - first:
+      213: -4091016062182860131
+    second: AtrixTempleTilemapv2_36
+  - first:
+      213: -431687425719945768
+    second: AtrixTempleTilemapv2_37
+  - first:
+      213: -3613054003281627295
+    second: AtrixTempleTilemapv2_38
+  - first:
+      213: -7733295241799119977
+    second: AtrixTempleTilemapv2_39
+  - first:
+      213: -9010490250022147779
+    second: AtrixTempleTilemapv2_40
+  - first:
+      213: 7113525237726683578
+    second: AtrixTempleTilemapv2_41
+  - first:
+      213: 7433344335292837410
+    second: AtrixTempleTilemapv2_42
+  - first:
+      213: 4143791383860006991
+    second: AtrixTempleTilemapv2_43
+  - first:
+      213: -808260915269309506
+    second: AtrixTempleTilemapv2_44
+  - first:
+      213: -4519247037248849932
+    second: AtrixTempleTilemapv2_45
+  - first:
+      213: -5115736646105768641
+    second: AtrixTempleTilemapv2_46
+  - first:
+      213: -7488431818353973180
+    second: AtrixTempleTilemapv2_47
+  - first:
+      213: -7912170339993033311
+    second: AtrixTempleTilemapv2_48
+  - first:
+      213: 7784029878234720743
+    second: AtrixTempleTilemapv2_49
+  - first:
+      213: 4494132977669146958
+    second: AtrixTempleTilemapv2_50
+  - first:
+      213: 8831228654748679323
+    second: AtrixTempleTilemapv2_51
+  - first:
+      213: -4004844910112784485
+    second: AtrixTempleTilemapv2_52
+  - first:
+      213: 6226530342593105465
+    second: AtrixTempleTilemapv2_53
+  - first:
+      213: 1683480932586429333
+    second: AtrixTempleTilemapv2_54
+  - first:
+      213: -4112281444790178363
+    second: AtrixTempleTilemapv2_55
+  - first:
+      213: -142063716711523746
+    second: AtrixTempleTilemapv2_56
+  - first:
+      213: 7024786227796609054
+    second: AtrixTempleTilemapv2_57
+  - first:
+      213: 6515676633229744533
+    second: AtrixTempleTilemapv2_58
+  - first:
+      213: 4953552459589646780
+    second: AtrixTempleTilemapv2_59
+  - first:
+      213: 4272072151551870383
+    second: AtrixTempleTilemapv2_60
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1acf3f99463824d0800000000000000
+      internalID: -3159215448768132578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a13a42558a8db330800000000000000
+      internalID: 3728288371748516262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0df4dcab89da6290800000000000000
+      internalID: -7896259802717422323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc119ee7e742f5ee0800000000000000
+      internalID: -1270256444181507633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2fe89c1321fb4a0800000000000000
+      internalID: -6575516925893348648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b0552273be59e30800000000000000
+      internalID: 4509769223913147237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edf055a310aaa3e0800000000000000
+      internalID: -2041643474820727322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9282a546b94ebfec0800000000000000
+      internalID: -3531978126687328215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe31c87e9db25860800000000000000
+      internalID: 7517279216363191997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c1c936dedb3a9c0800000000000000
+      internalID: -3917078423606125471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ca880912d8b5610800000000000000
+      internalID: 1611036467013397518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a621b30493c02b520800000000000000
+      internalID: 2716246965288112746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6012d646e5edfbe0800000000000000
+      internalID: -1441743528495280021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43be508b77744b1a0800000000000000
+      internalID: -6794727358281159884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235e6d06c83eb54f0800000000000000
+      internalID: -838826713514842830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858ed4a7a7bd13120800000000000000
+      internalID: 2391934196194863192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4eb2684821f3200800000000000000
+      internalID: 161868472004633839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbd0da4c32a2af80800000000000000
+      internalID: -8096730800221791275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83511270d634f9120800000000000000
+      internalID: 2422729260098721080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e1e83e871937e30800000000000000
+      internalID: 4500100401073102377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f5951b3324ae700800000000000000
+      internalID: 570341092601978772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c1e07c74e0b2980800000000000000
+      internalID: -8562734565069808609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca57cd65ed00a5d0800000000000000
+      internalID: -3053425268316742971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07eae84fee4092b70800000000000000
+      internalID: 8874629965061992048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4f9e4862588c690800000000000000
+      internalID: -7581663572193053455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76278750e9d333890800000000000000
+      internalID: -7479566807226355097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b76e29a739080200800000000000000
+      internalID: 146377122555783097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088f2363948af1240800000000000000
+      internalID: 4764711963176663168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8b8529b482c50a0800000000000000
+      internalID: -6891589024740755249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85c4b49109a609c0800000000000000
+      internalID: -3961292997970836084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45840f584e707c8e0800000000000000
+      internalID: -1673360058463795116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f79005b797d45a0800000000000000
+      internalID: -6535433913713983638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4d7d31d95869360800000000000000
+      internalID: 7176069965950735531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b664bf14f8baa500800000000000000
+      internalID: 408342074873898677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe45b9842dcbfa70800000000000000
+      internalID: 8861902248594460404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525c8565dacc9b1e0800000000000000
+      internalID: -2181487499634227931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a5c2b019ac937c0800000000000000
+      internalID: -4091016062182860131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5b5ffc296520af0800000000000000
+      internalID: -431687425719945768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167781cd68adbddc0800000000000000
+      internalID: -3613054003281627295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b485943f0dda490800000000000000
+      internalID: -7733295241799119977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d392f437bde44f280800000000000000
+      internalID: -9010490250022147779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1a97fb38158b260800000000000000
+      internalID: 7113525237726683578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eaa461a4b882760800000000000000
+      internalID: 7433344335292837410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40dc421f44b18930800000000000000
+      internalID: 4143791383860006991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb6a8bdafa78c4f0800000000000000
+      internalID: -808260915269309506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7bb8c73c86841c0800000000000000
+      internalID: -4519247037248849932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dda6cef904109b0800000000000000
+      internalID: -5115736646105768641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4486746cfeeb31890800000000000000
+      internalID: -7488431818353973180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_48
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5655a0ff2523290800000000000000
+      internalID: -7912170339993033311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e92535ceed660c60800000000000000
+      internalID: 7784029878234720743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49865bd12e5e5e30800000000000000
+      internalID: 4494132977669146958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cbb80fba3de8a70800000000000000
+      internalID: 8831228654748679323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f3238d5ceeb68c0800000000000000
+      internalID: -4004844910112784485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e04756b54196650800000000000000
+      internalID: 6226530342593105465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b15fc1dfcec5710800000000000000
+      internalID: 1683480932586429333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cde9d250dd3ee6c0800000000000000
+      internalID: -4112281444790178363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_56
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a10f56dc9470ef0800000000000000
+      internalID: -142063716711523746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e188fd2fadd0d7160800000000000000
+      internalID: 7024786227796609054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_58
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599d8fa50655c6a50800000000000000
+      internalID: 6515676633229744533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb97a1a87bd8eb440800000000000000
+      internalID: 4953552459589646780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtrixTempleTilemapv2_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa58618ccf2794b30800000000000000
+      internalID: 4272072151551870383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
