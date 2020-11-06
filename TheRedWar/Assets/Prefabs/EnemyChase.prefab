@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 3796545506074367007}
   - component: {fileID: 3796545506074367006}
   - component: {fileID: 301369094}
+  - component: {fileID: 686011339}
   m_Layer: 0
   m_Name: EnemyChase
   m_TagString: Enemy
@@ -138,8 +139,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 86d816a1d08ae754fa747688037bce5c, type: 3}
-  m_Color: {r: 0.56078434, g: 0, b: 1, a: 1}
+  m_Sprite: {fileID: -4736774811975368484, guid: bd77d518b4805d741b965d08ec6b181c,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -162,9 +164,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.010498047, y: -0.09294224}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.49110413
 --- !u!50 &3796545506074367004
 Rigidbody2D:
   serializedVersion: 4
@@ -229,6 +231,8 @@ MonoBehaviour:
   RightEye: {fileID: 3796545505649557888}
   feet: {fileID: 1990662738931837093}
   direction: {x: 0, y: 0}
+  anim: {fileID: 686011339}
+  spriteRend: {fileID: 3796545506074367003}
 --- !u!114 &301369094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,6 +246,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToPlayer: 2
+--- !u!95 &686011339
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3796545506074367000}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d14fb03926447c54fadeee455d4eb73d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &3796545506105507041
 GameObject:
   m_ObjectHideFlags: 0

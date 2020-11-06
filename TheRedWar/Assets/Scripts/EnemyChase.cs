@@ -21,7 +21,10 @@ public class EnemyChase : MonoBehaviour {
 	
 	public Vector2 direction;
 	
-	string setDirection = "none";
+	public Animator anim;
+	public SpriteRenderer spriteRend;
+	
+	string setDirection = "none"; //"none" "right" or "left"
 	string patrolDirection = "right";
 	bool jump = false;
 	bool chaseActive = false;
@@ -41,6 +44,17 @@ public class EnemyChase : MonoBehaviour {
 	}
 	
 	private void Update(){
+		
+		//If moving left, look left, else if looking right, look right
+		if(setDirection == "right"){ 
+			//transform.localScale = new Vector3(1f,1f,1f);
+			spriteRend.flipX = false;
+		} else if(setDirection == "left"){
+			//transform.localScale = new Vector3(-1f,1f,1f);
+			spriteRend.flipX = true;
+		}
+		
+		anim.SetBool("isChasing", chaseActive);
 		
 		// Look for player
 		playerCheckRight = Physics2D.Raycast(RightEye.position, transform.right, sightRange, playerLayers);
