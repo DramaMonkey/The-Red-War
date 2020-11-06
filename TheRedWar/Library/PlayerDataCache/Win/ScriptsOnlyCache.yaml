@@ -2,11 +2,15 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Bullet
+    - ButtonHoverText
+    - Checkpoint
     - CurrencyPicker
     - EnemyChase
     - EnemyDamageToPlayer
     - EnemyHealth
     - EnemyPatrol
+    - FinishLevel
+    - GameMaster
     - HealthBar
     - LevelManager
     - MainMenu
@@ -15,6 +19,7 @@ ScriptsOnlyBuild:
     - PauseMenu
     - PlayerHealth
     - PlayerMovement
+    - PlayerRespawnPos
     - PlayerShoot
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -71,7 +76,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/MainMenu.unity:
+    Assets/Scenes/Level_AtrixTemple.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -84,26 +89,88 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 594}
+    - Class: 114
       Script: {instanceID: 11246}
+    - Class: 114
+      Script: {instanceID: 11248}
     - Class: 114
       Script: {instanceID: 11272}
     - Class: 114
       Script: {instanceID: 11648}
     - Class: 114
+      Script: {instanceID: 11940}
+    - Class: 114
       Script: {instanceID: 12376}
+    - Class: 114
+      Script: {instanceID: 12414}
+    - Class: 114
+      Script: {instanceID: 12466}
+    - Class: 114
+      Script: {instanceID: 12542}
+    - Class: 114
+      Script: {instanceID: 12664}
+    - Class: 114
+      Script: {instanceID: 12858}
+    - Class: 114
+      Script: {instanceID: 12868}
+    - Class: 114
+      Script: {instanceID: 13002}
+    - Class: 114
+      Script: {instanceID: 13042}
+    - Class: 114
+      Script: {instanceID: 13080}
+    - Class: 114
+      Script: {instanceID: 13178}
     - Class: 114
       Script: {instanceID: 13186}
     - Class: 114
+      Script: {instanceID: 13598}
+    - Class: 114
+      Script: {instanceID: 13650}
+    - Class: 114
+      Script: {instanceID: 13678}
+    - Class: 114
+      Script: {instanceID: 13876}
+    - Class: 114
       Script: {instanceID: 14060}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 14068}
+    - Class: 114
+      Script: {instanceID: 14240}
+    - Class: 114
+      Script: {instanceID: 14668}
     - Class: 114
       Script: {instanceID: 14722}
+    - Class: 114
+      Script: {instanceID: 16850}
+    - Class: 114
+      Script: {instanceID: 19076}
+    - Class: 114
+      Script: {instanceID: 42738}
+    - Class: 114
+      Script: {instanceID: 110570}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -111,6 +178,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -120,7 +189,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Prototype.unity:
+    - Class: 251
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Level_DevPlayground.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -211,6 +290,14 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14668}
     - Class: 114
       Script: {instanceID: 14722}
+    - Class: 114
+      Script: {instanceID: 16850}
+    - Class: 114
+      Script: {instanceID: 19076}
+    - Class: 114
+      Script: {instanceID: 42738}
+    - Class: 114
+      Script: {instanceID: 110570}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -238,6 +325,59 @@ ScriptsOnlyBuild:
     - Class: 483693784
       Script: {instanceID: 0}
     - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11246}
+    - Class: 114
+      Script: {instanceID: 11272}
+    - Class: 114
+      Script: {instanceID: 11648}
+    - Class: 114
+      Script: {instanceID: 12376}
+    - Class: 114
+      Script: {instanceID: 13186}
+    - Class: 114
+      Script: {instanceID: 14060}
+    - Class: 114
+      Script: {instanceID: 14368}
+    - Class: 114
+      Script: {instanceID: 14722}
+    - Class: 114
+      Script: {instanceID: 19076}
+    - Class: 114
+      Script: {instanceID: 105526}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1116,8 +1256,39 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5b1b3ffd72b90bfa45a4a5e527faccd4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Checkpoint
+  - hash:
+      serializedVersion: 2
+      Hash: 947ac3614ad91cfc90e7f19ef09b6ddd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameMaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerRespawnPos
+  - hash:
+      serializedVersion: 2
+      Hash: 18026063b198bb1d57a496056da4704c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonHoverText
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishLevel
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/Prototype.unity
-  playerPath: D:/Unity/Dev/Builds/TheRedWar/v1.3.1/TheRedWar.exe
+  - Assets/Scenes/Level_DevPlayground.unity
+  - Assets/Scenes/Level_AtrixTemple.unity
+  playerPath: D:/Unity/Dev/Builds/TheRedWar/v1.4/TheRedWar.exe

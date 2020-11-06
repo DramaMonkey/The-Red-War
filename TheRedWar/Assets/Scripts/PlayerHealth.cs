@@ -46,21 +46,14 @@ public class PlayerHealth : MonoBehaviour{
 		Destroy(gameObject);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	private void Update(){
+		if(Input.GetKeyDown(KeyCode.K)){
+			this.GetComponent<PlayerMovement>().SetPlayerFreeze(true);
+				
+			StartCoroutine(LevelManager.instance.Respawn());
+			StartCoroutine(playerDeath());
+		}
+			
+	}
+
 }
