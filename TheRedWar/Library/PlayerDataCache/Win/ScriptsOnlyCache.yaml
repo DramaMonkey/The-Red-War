@@ -52,8 +52,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -1020,7 +1022,7 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: f7a518e327b4fd9e6394bc7c098215fe
+      Hash: b050ff07db060a29a4a906d9688242c5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyChase
@@ -1118,4 +1120,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Prototype.unity
-  playerPath: D:/Unity/Dev/Builds/TheRedWar/v1.2.1/TheRedWar.exe
+  playerPath: D:/Unity/Dev/Builds/TheRedWar/v1.3.1/TheRedWar.exe
