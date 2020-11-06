@@ -22,22 +22,5 @@ public class Bullet : MonoBehaviour {
 		}
 	}
 	
-	/*void OnTriggerEnter(Collider other) {
-		if (other.gameObject.tag == "Enemy" ){
-			EnemyHealth eHealth = other.GameObject.GetComponent<EnemyHealth>();
-			eHealth.AdjustCurrentHealth(damage);
-		}
-		Destroy(this.gameObject);
-	}*/
-	
-	
-	//Weapon Collider Script
-	/*void OnTriggerEnter(Collider hit){
-		if(hit.gameObject.tag == "Enemy"){
-			//hit.getComponent<EnemyHealth>().curHealth -= bulletDamage;
-			hit.GetComponent<EnemyHealth>().curHealth -= bulletDamage;
-		}
-	}*/
- 
 	
 }

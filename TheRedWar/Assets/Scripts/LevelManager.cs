@@ -18,25 +18,21 @@ public class LevelManager : MonoBehaviour {
 	public int currency = 0;
 	public Text currencyUI;
 	
-	
-	
-	
-		
+
 	private void Awake() {
 		instance = this;
 	}
 	
 	public IEnumerator Respawn() {
-		
 		yield return new WaitForSeconds(2f);
 		
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-		
-		//Old respawn script
-		/*GameObject player = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
-		cam.Follow = player.transform;*/
 	}
 	
+
+	public void FinishLevel () {
+		SceneManager.LoadScene("MainMenu");
+	}
 
 	
 	public void IncreaseCurrency(int amount) {

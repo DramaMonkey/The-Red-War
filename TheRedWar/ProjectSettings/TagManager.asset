@@ -14,6 +14,10 @@ TagManager:
   - ShowOnPause
   - MainMenu
   - OneWayGround
+  - GM
+  - checkpoint
+  - MainMenu_LevelSelect
+  - LevelStart
   layers:
   - Default
   - TransparentFX
