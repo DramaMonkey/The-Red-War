@@ -1,6 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AtrixAttackNova
+    - AtrixAttackSpike
+    - AtrixBossControl
+    - AtrixBossTrigger
+    - AtrixHealthBar
     - Bullet
     - ButtonHoverText
     - Checkpoint
@@ -118,59 +123,69 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 11516}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 11650}
     - Class: 114
-      Script: {instanceID: 12376}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12414}
+      Script: {instanceID: 12416}
     - Class: 114
-      Script: {instanceID: 12466}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 12544}
     - Class: 114
-      Script: {instanceID: 12664}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12858}
+      Script: {instanceID: 12668}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12862}
     - Class: 114
-      Script: {instanceID: 13002}
+      Script: {instanceID: 12872}
     - Class: 114
-      Script: {instanceID: 13042}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13008}
     - Class: 114
-      Script: {instanceID: 13178}
+      Script: {instanceID: 13048}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13650}
+      Script: {instanceID: 13192}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13280}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13606}
     - Class: 114
-      Script: {instanceID: 14060}
+      Script: {instanceID: 13658}
     - Class: 114
-      Script: {instanceID: 14068}
+      Script: {instanceID: 13686}
     - Class: 114
-      Script: {instanceID: 14240}
+      Script: {instanceID: 13884}
     - Class: 114
-      Script: {instanceID: 14668}
+      Script: {instanceID: 14028}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 16850}
+      Script: {instanceID: 14078}
     - Class: 114
-      Script: {instanceID: 19076}
+      Script: {instanceID: 14250}
     - Class: 114
-      Script: {instanceID: 42738}
+      Script: {instanceID: 14402}
     - Class: 114
-      Script: {instanceID: 110570}
+      Script: {instanceID: 14610}
+    - Class: 114
+      Script: {instanceID: 14618}
+    - Class: 114
+      Script: {instanceID: 14684}
+    - Class: 114
+      Script: {instanceID: 14738}
+    - Class: 114
+      Script: {instanceID: 49606}
+    - Class: 114
+      Script: {instanceID: 68434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -241,63 +256,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 11650}
     - Class: 114
-      Script: {instanceID: 11940}
+      Script: {instanceID: 11942}
     - Class: 114
-      Script: {instanceID: 12376}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 12414}
+      Script: {instanceID: 12416}
     - Class: 114
-      Script: {instanceID: 12466}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12542}
+      Script: {instanceID: 12544}
     - Class: 114
-      Script: {instanceID: 12664}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12858}
+      Script: {instanceID: 12668}
     - Class: 114
-      Script: {instanceID: 12868}
+      Script: {instanceID: 12862}
     - Class: 114
-      Script: {instanceID: 13002}
+      Script: {instanceID: 12872}
     - Class: 114
-      Script: {instanceID: 13042}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 13080}
+      Script: {instanceID: 13008}
     - Class: 114
-      Script: {instanceID: 13178}
+      Script: {instanceID: 13048}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 13086}
     - Class: 114
-      Script: {instanceID: 13598}
+      Script: {instanceID: 13184}
     - Class: 114
-      Script: {instanceID: 13650}
+      Script: {instanceID: 13192}
     - Class: 114
-      Script: {instanceID: 13678}
+      Script: {instanceID: 13280}
     - Class: 114
-      Script: {instanceID: 13876}
+      Script: {instanceID: 13606}
     - Class: 114
-      Script: {instanceID: 14060}
+      Script: {instanceID: 13658}
     - Class: 114
-      Script: {instanceID: 14068}
+      Script: {instanceID: 13686}
     - Class: 114
-      Script: {instanceID: 14240}
+      Script: {instanceID: 13884}
     - Class: 114
-      Script: {instanceID: 14558}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14602}
+      Script: {instanceID: 14078}
     - Class: 114
-      Script: {instanceID: 14668}
+      Script: {instanceID: 14250}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14570}
     - Class: 114
-      Script: {instanceID: 16850}
+      Script: {instanceID: 14610}
     - Class: 114
-      Script: {instanceID: 19076}
+      Script: {instanceID: 14618}
     - Class: 114
-      Script: {instanceID: 42738}
+      Script: {instanceID: 14684}
     - Class: 114
-      Script: {instanceID: 110570}
+      Script: {instanceID: 14738}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -348,21 +363,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11272}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 11650}
     - Class: 114
-      Script: {instanceID: 12376}
+      Script: {instanceID: 12378}
     - Class: 114
-      Script: {instanceID: 13186}
+      Script: {instanceID: 12912}
     - Class: 114
-      Script: {instanceID: 14060}
+      Script: {instanceID: 13192}
     - Class: 114
-      Script: {instanceID: 14368}
+      Script: {instanceID: 14070}
     - Class: 114
-      Script: {instanceID: 14722}
+      Script: {instanceID: 14378}
     - Class: 114
-      Script: {instanceID: 19076}
+      Script: {instanceID: 14604}
     - Class: 114
-      Script: {instanceID: 105526}
+      Script: {instanceID: 14738}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -446,6 +461,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 9475ff3830e515501840ef97a8119e99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AtrixBossTrigger
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -730,6 +751,12 @@ ScriptsOnlyBuild:
     className: CinemachinePOV
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishLevel
+  - hash:
+      serializedVersion: 2
       Hash: df2278b7bfad39b13bcda5b1dcc6bacc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -782,6 +809,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerShoot
+  - hash:
+      serializedVersion: 2
+      Hash: 947ac3614ad91cfc90e7f19ef09b6ddd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameMaster
   - hash:
       serializedVersion: 2
       Hash: 15882a52798c275361cd0a3ada984ec5
@@ -878,6 +911,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras.dll
     namespaceName: UnityEngine
     className: HexagonalRuleTile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerRespawnPos
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -1060,6 +1099,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 3c81826b2e8135fc1d4cd704912786c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AtrixAttackSpike
+  - hash:
+      serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1108,7 +1153,7 @@ ScriptsOnlyBuild:
     className: TerrainTile
   - hash:
       serializedVersion: 2
-      Hash: 9733a94705b1edfb7ca5254b4f650787
+      Hash: 3c81826b2e8135fc1d4cd704912786c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bullet
@@ -1130,6 +1175,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 13de99db6123029632f7b04c38058007
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AtrixBossControl
   - hash:
       serializedVersion: 2
       Hash: 8cd1cbba27f3cb1717254f668e9e0d5a
@@ -1160,6 +1211,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 18026063b198bb1d57a496056da4704c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonHoverText
+  - hash:
+      serializedVersion: 2
+      Hash: 5b1b3ffd72b90bfa45a4a5e527faccd4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Checkpoint
   - hash:
       serializedVersion: 2
       Hash: b050ff07db060a29a4a906d9688242c5
@@ -1258,37 +1321,19 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 5b1b3ffd72b90bfa45a4a5e527faccd4
+      Hash: 76ecff6eee3db1f19f3c67712d0e44a3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Checkpoint
+    className: AtrixAttackNova
   - hash:
       serializedVersion: 2
-      Hash: 947ac3614ad91cfc90e7f19ef09b6ddd
+      Hash: 3dcf1fac271fb83177fb795239ebcc80
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: GameMaster
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerRespawnPos
-  - hash:
-      serializedVersion: 2
-      Hash: 18026063b198bb1d57a496056da4704c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonHoverText
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FinishLevel
+    className: AtrixHealthBar
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level_DevPlayground.unity
   - Assets/Scenes/Level_AtrixTemple.unity
-  playerPath: D:/Unity/Dev/Builds/TheRedWar/v1.4/TheRedWar.exe
+  playerPath: D:/Unity/Dev/Builds/TheRedWar/v1.5/TheRedWar.exe

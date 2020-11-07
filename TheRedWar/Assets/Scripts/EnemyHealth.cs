@@ -12,7 +12,7 @@ public class EnemyHealth : MonoBehaviour{
 		}
 	}*/
 	
-	public void AddjustCurrentHealth(int adj)
+	public void AddjustCurrentHealth(float adj)
 	{
 		curHealth += adj;
 
@@ -27,10 +27,27 @@ public class EnemyHealth : MonoBehaviour{
 		if (maxHealth < 1) {
 			maxHealth = 1;
 		}
-
+		
 		if (curHealth <= 0) {
-			Destroy(this);
+			enemyDeath(this.gameObject.transform.name);			
 		}
+	}
+	
+	
+	public void enemyDeath(string enemyName){
+		// Handle custom deaths manually... otherwise just pop the gameObject
+		switch (enemyName){
+			case "Boss_Atrix":
+				GameObject.Find("Boss_Atrix").GetComponent<AtrixBossControl>().atrix_Death();
+				//Destroy(this.gameObject);
+				break;
+				
+			default:
+				Destroy(this.gameObject);
+				break;
+        }
+		
+
 	}
 	
 	

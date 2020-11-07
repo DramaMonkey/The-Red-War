@@ -18,6 +18,7 @@ TagManager:
   - checkpoint
   - MainMenu_LevelSelect
   - LevelStart
+  - bossHealthBar
   layers:
   - Default
   - TransparentFX

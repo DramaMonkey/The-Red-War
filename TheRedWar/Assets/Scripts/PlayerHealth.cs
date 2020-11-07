@@ -16,13 +16,23 @@ public class PlayerHealth : MonoBehaviour{
 
 	private void OnCollisionStay2D(Collision2D collision){
 		if(collision.gameObject.CompareTag("Enemy") || collision.gameObject.tag == "Spike"){
-			
 			damageToPlayer = collision.gameObject.GetComponent<EnemyDamageToPlayer>().getDamageToPlayer();
-			
+			enemyHitPlayer(damageToPlayer);
+		}
+	}
+	
+	private void OnTriggerStay2D(Collider2D collision) {
+		if(collision.gameObject.CompareTag("Enemy") || collision.gameObject.tag == "Spike"){
+			damageToPlayer = collision.gameObject.GetComponent<EnemyDamageToPlayer>().getDamageToPlayer();
+			enemyHitPlayer(damageToPlayer);
+		}
+	}
+	
+	void enemyHitPlayer(float damageDealt){
 			//iframe check
 			if(iframeTimeout<Time.time){
 				//When take damage...
-				curHealth -= damageToPlayer;
+				curHealth -= damageDealt;
 				healthBar.SetHealth( curHealth );
 				
 				
@@ -36,9 +46,9 @@ public class PlayerHealth : MonoBehaviour{
 				StartCoroutine(LevelManager.instance.Respawn());
 				StartCoroutine(playerDeath());
 			}
-			
-		}
+		
 	}
+	
 	
 	IEnumerator playerDeath()
 	{
