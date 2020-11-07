@@ -247,6 +247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baabbacdfd71f3b428d1f737453c60f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
   Atrix_Attack_Spike: {fileID: 503258944898838952, guid: 86ae338807a87494490ea4be4e58879a,
     type: 3}
   Spike_Cast: {fileID: 8983881473189356201}
@@ -288,6 +289,7 @@ MonoBehaviour:
   attackCooldown_Min: 3
   attackChoice: 3
   attackCooldown_SpikeDelay: 1
+  attack_fenzySpeedMult: 5
 --- !u!50 &8983881472641888505
 Rigidbody2D:
   serializedVersion: 4
@@ -300,7 +302,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 10000
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -413,6 +415,7 @@ MonoBehaviour:
   atrix: {fileID: 0}
   vcam: {fileID: 0}
   arenaCam: {fileID: 8983881472242495418}
+  atrixHealthBar: {fileID: 0}
 --- !u!1 &8983881473189356200
 GameObject:
   m_ObjectHideFlags: 0

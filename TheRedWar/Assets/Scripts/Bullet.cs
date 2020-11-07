@@ -6,6 +6,7 @@ public class Bullet : MonoBehaviour {
 	public float bulletSpeed = 15f;
 	public float bulletDamage = 1f;
 	public float bulletTimeoutTime = 1f;
+	public bool destroyOnHit = true;
 	public Rigidbody2D rb;
 	
 	private void Awake(){
@@ -22,11 +23,18 @@ public class Bullet : MonoBehaviour {
 		}
 		if(collision.gameObject.tag == "Enemy"){
 			collision.gameObject.GetComponent<EnemyHealth>().AddjustCurrentHealth(-bulletDamage);
-			/*if(collision.gameObject.GetComponent<EnemyHealth>().curHealth <= 0){
-				Destroy(collision.gameObject);
-			}*/
 		}
 	}
+	
+	private void OnTriggerEnter2D(Collider2D collision){
+		if(destroyOnHit == true && (collision.gameObject.tag == "Platforms" | collision.gameObject.tag == "Enemy")){
+			Destroy(gameObject);
+		}
+		if(collision.gameObject.tag == "Enemy"){
+			collision.gameObject.GetComponent<EnemyHealth>().AddjustCurrentHealth(-bulletDamage);
+		}
+	}
+	
 	
 	
 	IEnumerator bulletTimeout() {

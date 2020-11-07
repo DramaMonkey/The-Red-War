@@ -50,6 +50,8 @@ public class AtrixBossControl : MonoBehaviour {
 	public float attackCooldown_SpikeDelay = 1f;
 	private float attackCooldown_SpikeNextAttack = 0f;
 	
+	public float attack_fenzySpeedMult = 3f;
+	
 	private bool atrix_Attacking = false;
 	
 	private string activeCoroutine = "";
@@ -69,10 +71,7 @@ public class AtrixBossControl : MonoBehaviour {
 			atrix_Death();
 		}
 		
-		// update hp bar every frame
-		curHealth = GetComponent<EnemyHealth>().curHealth;
-		healthBar.SetHealth( curHealth );
-		
+
 		// run intro on fight start
 		if(fightSection == "intro"){
 			StartCoroutine("atrix_Intro");
@@ -83,6 +82,10 @@ public class AtrixBossControl : MonoBehaviour {
 		
 		// if fighting
 		if(fightSection == "fight"){
+			// update hp bar every frame
+			curHealth = GetComponent<EnemyHealth>().curHealth;
+			healthBar.SetHealth( curHealth );
+			
 			
 			// Chase the player, if they are in range, do a spike attack.
 				// spike if player within L/R of 1.5 units and within height of 2 units
@@ -114,7 +117,7 @@ public class AtrixBossControl : MonoBehaviour {
 					rb.velocity = new Vector2(0, rb.velocity.y);
 					atrix_Attacking = true;
 					attackChoice = Random.Range(0,2);
-					//attackChoice = 1;//debug
+					attackChoice = 0;//debug
 					
 					if(attackChoice == 0){
 						StartCoroutine("atrix_Frenzy");
@@ -126,6 +129,11 @@ public class AtrixBossControl : MonoBehaviour {
 				}
 			}
 
+		}
+		
+		//Stops Atrix escaping the arena in frenzy
+		if(activeCoroutine == "atrix_Frenzy" && (this.transform.position.x < 144.6301 | this.transform.position.x >164.7977)){
+			rb.velocity = new Vector2(0, rb.velocity.y);
 		}
 		
 	}
@@ -167,6 +175,7 @@ public class AtrixBossControl : MonoBehaviour {
 		rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation ;
 		
 		//attack 2-4 times @ player
+		rb.gravityScale = 1.0f;
 		yield return new WaitForSeconds(0.8f);
 		int numOfAttacks = Random.Range(2,5);
 
@@ -175,9 +184,9 @@ public class AtrixBossControl : MonoBehaviour {
 			// Set direction
 			if(player_Direction == "right"){
 				spriteRenderer.flipX = true;
-				frenzySpeed = speed*7;		
+				frenzySpeed = speed*attack_fenzySpeedMult;		
 			} else if(player_Direction == "left"){
-				frenzySpeed = -speed*7;
+				frenzySpeed = -speed*attack_fenzySpeedMult;
 				spriteRenderer.flipX = false;
 			}
 			// Dealy between look and attack
@@ -195,6 +204,7 @@ public class AtrixBossControl : MonoBehaviour {
 
 		//Lower back to idle & reset attack timer
 		set_attackCooldown_NextAttack();
+		rb.gravityScale = 0.0f;
 		StartCoroutine("atrix_Lower");
 	}
 	
