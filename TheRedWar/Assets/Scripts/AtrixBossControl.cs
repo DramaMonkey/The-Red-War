@@ -256,6 +256,7 @@ public class AtrixBossControl : MonoBehaviour {
 	public void atrix_Death(){
 		fightSection = "dead";
 		StopCoroutine(activeCoroutine);
+		healthBar.SetHealth( 0 );
 		this.transform.position = AtrixStartPoint.position;	
 		rb.constraints = RigidbodyConstraints2D.FreezeAll;
 		Destroy(rb);

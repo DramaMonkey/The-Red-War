@@ -7,17 +7,21 @@ public class PlayerShoot : MonoBehaviour {
 	public Transform firingPoint;
 	public GameObject bulletPrefab;
 	
+	public GameObject player;
+	private PlayerAttackControl pac;
+	
 	float timeUntilFire;
 	PlayerMovement pm;
 	
 	private void Start() {
 		pm = gameObject.GetComponent<PlayerMovement>();
+		pac = player.GetComponent<PlayerAttackControl>();
 	}
 	
 	private void Update() {
-		if(Input.GetMouseButtonDown(1) && timeUntilFire < Time.time){
+		if(Input.GetMouseButtonDown(1) && pac.get_player_GlobalAttackCooldown() < Time.time){
 			Shoot();
-			timeUntilFire = Time.time + fireRate;
+			pac.set_player_GlobalAttackCooldown(Time.time + fireRate);
 		}
 	}
 	

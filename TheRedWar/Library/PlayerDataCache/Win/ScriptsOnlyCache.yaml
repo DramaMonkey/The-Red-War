@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     - MessageBox
     - ParralaxBackground
     - PauseMenu
+    - PlayerAttackControl
     - PlayerHealth
     - PlayerMovement
     - PlayerRespawnPos
@@ -63,8 +64,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -187,6 +190,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14690}
     - Class: 114
       Script: {instanceID: 14744}
+    - Class: 114
+      Script: {instanceID: 30208}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -316,6 +321,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14690}
     - Class: 114
       Script: {instanceID: 14744}
+    - Class: 114
+      Script: {instanceID: 30208}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -466,7 +473,7 @@ ScriptsOnlyBuild:
     className: PlayerQuitHandler
   - hash:
       serializedVersion: 2
-      Hash: 9475ff3830e515501840ef97a8119e99
+      Hash: b3c444f715500798540095963e93cc99
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AtrixBossTrigger
@@ -820,7 +827,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: fc632ae78b82a1954049361a33a9333f
+      Hash: 30ada874cee7b0db11237f7949454e43
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerShoot
@@ -1150,7 +1157,7 @@ ScriptsOnlyBuild:
     className: CinemachineSmoothPath
   - hash:
       serializedVersion: 2
-      Hash: 34bc7cd138aeadd07b837af20c94a03f
+      Hash: 022740ac9b9aa6d88aafd89bd9559f1e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerStab
@@ -1340,9 +1347,15 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7d1d871531ee049bf5ef020f1e59e38f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerAttackControl
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level_DevPlayground.unity
   - Assets/Scenes/Level_AtrixTemple.unity
-  playerPath: D:/Unity/Dev/Builds/TheRedWar/v2/TheRedWar.exe
+  playerPath: D:/Unity/Dev/Builds/TheRedWar/v2.1/TheRedWar.exe

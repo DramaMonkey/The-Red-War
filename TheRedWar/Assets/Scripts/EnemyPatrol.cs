@@ -57,4 +57,11 @@ public class EnemyPatrol : MonoBehaviour {
 			swapDirection = false;
 		}
 	}
+	
+	private void OnCollisionEnter2D(Collision2D collision){
+		if(collision.gameObject.tag == "Enemy"){
+			swapDirection = true;
+		}
+	}
+	
 }

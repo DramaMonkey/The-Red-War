@@ -10,19 +10,24 @@ public class PlayerStab : MonoBehaviour {
 	public GameObject swordPrefab;
 	public GameObject sword;
 	
-	float timeUntilFire;
+	public GameObject player;
+	private PlayerAttackControl pac;
+	
+	//float timeUntilFire;
 	float angle;
 	bool flip;
 	PlayerMovement pm;
 	
 	private void Start() {
 		pm = gameObject.GetComponent<PlayerMovement>();
+		pac = player.GetComponent<PlayerAttackControl>();
 	}
 	
 	private void Update() {
-		if(Input.GetMouseButtonDown(0) && timeUntilFire < Time.time){
+		if(Input.GetMouseButtonDown(0) && pac.get_player_GlobalAttackCooldown() < Time.time){
 			Stab();
-			timeUntilFire = Time.time + fireRate;
+			pac.set_player_GlobalAttackCooldown(Time.time + fireRate);
+			//timeUntilFire = Time.time + fireRate;
 		}
 	}
 	

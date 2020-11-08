@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 8123330531523554539}
   - component: {fileID: 1950478540}
   - component: {fileID: 1700112151}
+  - component: {fileID: 1312450330}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -151,10 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99c3700524ee09044b03b7b94085bebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 10
+  movementSpeed: 12
   rb: {fileID: 7725654205502447581}
   anim: {fileID: 7725654205502447558}
-  jumpForce: 20
+  jumpForce: 17
   feet: {fileID: 7725654205610331209}
   groundLayers:
     serializedVersion: 2
@@ -197,6 +198,7 @@ MonoBehaviour:
   firingPoint: {fileID: 7725654205569395910}
   bulletPrefab: {fileID: 6234722617831100153, guid: 33637e30e543eba499250ec21faa6f08,
     type: 3}
+  player: {fileID: 7725654205502447580}
 --- !u!114 &8123330531523554539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,8 +211,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ce95e980b587584b99cfd4ae2178397, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
-  curHealth: 5
+  maxHealth: 10
+  curHealth: 10
   iframes: 1
   rb: {fileID: 7725654205502447581}
   healthBar: {fileID: 0}
@@ -238,12 +240,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e511ac9cce4564988af65ffc0eff27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 1
+  fireRate: 0.5
   bulletDamage: 2
   firingPoint: {fileID: 7725654205569395910}
   swordPrefab: {fileID: 6234722617831100153, guid: 86268f98f57a3944d8e5ec4c6dbf4563,
     type: 3}
   sword: {fileID: 0}
+  player: {fileID: 7725654205502447580}
+--- !u!114 &1312450330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725654205502447580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08801ef2ef6ca14a9800d7822b9b35c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_GlobalAttackCooldown: 0
 --- !u!1 &7725654205569395905
 GameObject:
   m_ObjectHideFlags: 0
