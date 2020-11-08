@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Level_AtrixTemple.unity
+- path: Assets/Scenes/Level_DevKenji.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

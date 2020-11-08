@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 5445457366776379705}
   - component: {fileID: 5445457366776379707}
   - component: {fileID: 5445457366776379652}
+  - component: {fileID: 5607850939539490946}
   m_Layer: 0
   m_Name: Atrix_Attack_Nova
-  m_TagString: Enemy
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,6 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbc686331ec8a7045827cf49b4c0bc59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bulletTimeoutTime: 1
 --- !u!58 &5445457366776379707
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -125,3 +127,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageToPlayer: 1
+--- !u!114 &5607850939539490946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5445457366776379706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc8a95c2ca19084d8cec56e975a1fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 1000
+  curHealth: 1000

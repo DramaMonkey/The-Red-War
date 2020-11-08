@@ -1355,4 +1355,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level_DevPlayground.unity
   - Assets/Scenes/Level_AtrixTemple.unity
-  playerPath: D:/Unity/Dev/Builds/TheRedWar/v2.1.3/TheRedWar.exe
+  playerPath: D:/Unity/Dev/Builds/TheRedWar/v2.1.5/TheRedWar.exe

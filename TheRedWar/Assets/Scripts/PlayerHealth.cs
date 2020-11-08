@@ -13,6 +13,12 @@ public class PlayerHealth : MonoBehaviour{
 	
 	public Rigidbody2D rb; 
 	public HealthBar healthBar;
+	
+	SpriteRenderer sprite;
+
+	private void Start(){
+		 sprite = GetComponent<SpriteRenderer>();
+	}
 
 	private void OnCollisionStay2D(Collision2D collision){
 		if(collision.gameObject.CompareTag("Enemy") || collision.gameObject.tag == "Spike"){
@@ -28,17 +34,35 @@ public class PlayerHealth : MonoBehaviour{
 		}
 	}
 	
+	private void Update(){
+		if(iframeTimeout<Time.time){
+			StopCoroutine("iframe_Flash");
+			sprite.color = new Color (255, 255, 255, 255); 
+		}
+		
+		if(Input.GetKeyDown(KeyCode.K)){
+			this.GetComponent<PlayerMovement>().SetPlayerFreeze(true);
+				
+			StartCoroutine(LevelManager.instance.Respawn());
+			StartCoroutine(playerDeath());
+		}
+			
+	}
+	
+	
 	void enemyHitPlayer(float damageDealt){
 			//iframe check
 			if(iframeTimeout<Time.time){
 				//When take damage...
+				
+				
 				curHealth -= damageDealt;
 				healthBar.SetHealth( curHealth );
 				
-				
+				StartCoroutine("iframe_Flash");
 				iframeTimeout = Time.time+iframes;
 			}
-			
+						
 			//death check
 			if(curHealth <= 0){
 				this.GetComponent<PlayerMovement>().SetPlayerFreeze(true);
@@ -50,20 +74,21 @@ public class PlayerHealth : MonoBehaviour{
 	}
 	
 	
+	IEnumerator iframe_Flash(){
+		while(true){
+			yield return new WaitForSeconds(0.1f);
+			sprite.color = new Color (1, 0, 0, 1); 
+			yield return new WaitForSeconds(0.1f);
+			sprite.color = new Color (255, 255, 255, 255); 
+		}
+	}
+	
 	IEnumerator playerDeath()
 	{
 		yield return new WaitForSeconds(2);
 		Destroy(gameObject);
 	}
 	
-	private void Update(){
-		if(Input.GetKeyDown(KeyCode.K)){
-			this.GetComponent<PlayerMovement>().SetPlayerFreeze(true);
-				
-			StartCoroutine(LevelManager.instance.Respawn());
-			StartCoroutine(playerDeath());
-		}
-			
-	}
+
 
 }
