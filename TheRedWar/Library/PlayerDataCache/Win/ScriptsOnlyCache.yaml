@@ -174,19 +174,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14082}
     - Class: 114
-      Script: {instanceID: 14254}
+      Script: {instanceID: 14150}
     - Class: 114
-      Script: {instanceID: 14406}
+      Script: {instanceID: 14256}
     - Class: 114
-      Script: {instanceID: 14614}
+      Script: {instanceID: 14408}
     - Class: 114
-      Script: {instanceID: 14622}
+      Script: {instanceID: 14616}
     - Class: 114
-      Script: {instanceID: 14688}
+      Script: {instanceID: 14624}
     - Class: 114
-      Script: {instanceID: 14742}
+      Script: {instanceID: 14690}
     - Class: 114
-      Script: {instanceID: 18694}
+      Script: {instanceID: 14744}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -303,19 +303,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14082}
     - Class: 114
-      Script: {instanceID: 14254}
+      Script: {instanceID: 14150}
     - Class: 114
-      Script: {instanceID: 14574}
+      Script: {instanceID: 14256}
     - Class: 114
-      Script: {instanceID: 14614}
+      Script: {instanceID: 14576}
     - Class: 114
-      Script: {instanceID: 14622}
+      Script: {instanceID: 14616}
     - Class: 114
-      Script: {instanceID: 14688}
+      Script: {instanceID: 14624}
     - Class: 114
-      Script: {instanceID: 14742}
+      Script: {instanceID: 14690}
     - Class: 114
-      Script: {instanceID: 18694}
+      Script: {instanceID: 14744}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,11 +376,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14074}
     - Class: 114
-      Script: {instanceID: 14382}
+      Script: {instanceID: 14384}
     - Class: 114
-      Script: {instanceID: 14608}
+      Script: {instanceID: 14610}
     - Class: 114
-      Script: {instanceID: 14742}
+      Script: {instanceID: 14744}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1150,6 +1150,12 @@ ScriptsOnlyBuild:
     className: CinemachineSmoothPath
   - hash:
       serializedVersion: 2
+      Hash: 34bc7cd138aeadd07b837af20c94a03f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerStab
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1334,15 +1340,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 34bc7cd138aeadd07b837af20c94a03f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerStab
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level_DevPlayground.unity
   - Assets/Scenes/Level_AtrixTemple.unity
-  playerPath: D:/Unity/Dev/Builds/TheRedWar/v1.6/TheRedWar.exe
+  playerPath: D:/Unity/Dev/Builds/TheRedWar/v2/TheRedWar.exe

@@ -116,12 +116,12 @@ public class AtrixBossControl : MonoBehaviour {
 					
 					rb.velocity = new Vector2(0, rb.velocity.y);
 					atrix_Attacking = true;
-					attackChoice = Random.Range(0,2);
-					attackChoice = 0;//debug
+					attackChoice = Random.Range(0,5);
+					//attackChoice = 0;//debug
 					
-					if(attackChoice == 0){
+					if(attackChoice >= 0 && attackChoice <= 1){
 						StartCoroutine("atrix_Frenzy");
-					} else if (attackChoice == 1) { 
+					} else if (attackChoice >= 2 && attackChoice <= 5) { 
 						StartCoroutine("atrix_Nova");
 					}
 					
