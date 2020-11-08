@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour {
 	
 	public bool freezePlayer ;
 	
+	private bool canJump;
+	
 	// When object spawned
 	void start(){
 		//pe = GetComponent<PlatformEffector2D>();
@@ -31,12 +33,20 @@ public class PlayerMovement : MonoBehaviour {
 	private void Update() { 
 		
 		if(!freezePlayer){	
+			if(IsGrounded()){
+				canJump = true;
+			} else {
+				StartCoroutine(setCantJump());
+			}
+				
+		
+		
 			// -- Movement Control --
 				// If a or d is pressed, set movementX to -1 or 1 respectivly
 				movementX = Input.GetAxis("Horizontal");	
 				movementY = Input.GetAxis("Vertical");
 				
-				if((Input.GetButtonDown("Jump") || movementY == 1) && IsGrounded()){
+				if((Input.GetButtonDown("Jump") || movementY == 1) && canJump){
 					
 					// -- 1 way platforms jump -- 
 					setOneWayPlatforms(0f);
@@ -73,7 +83,7 @@ public class PlayerMovement : MonoBehaviour {
 					isFacingRight = false;
 				}
 				
-				anim.SetBool("IsGrounded", IsGrounded());
+				anim.SetBool("IsGrounded", canJump);
 				
 		}
 	
@@ -99,6 +109,12 @@ public class PlayerMovement : MonoBehaviour {
 		
 			rb.velocity = movement;
 		}
+	}
+	
+	public IEnumerator setCantJump(){
+		//Coyote time
+		yield return new WaitForSeconds(0.15f);
+		canJump = false;
 	}
 	
 	public bool IsGrounded(){
