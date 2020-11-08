@@ -787,7 +787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NotHovering: 
-  Hovering: Dev Playground
+  Hovering: Demo Area
 --- !u!1 &1185299713
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NotHovering: 
-  Hovering: Temple of Atrix
+  Hovering: Blood Temple of Atrix
 --- !u!1 &1549863298
 GameObject:
   m_ObjectHideFlags: 0
