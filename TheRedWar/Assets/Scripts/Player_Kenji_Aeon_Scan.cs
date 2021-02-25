@@ -5,17 +5,17 @@ using UnityEngine;
 public class Player_Kenji_Aeon_Scan : MonoBehaviour {
 	
 	public GameObject player;
-	public float scanTime = 0.5f;
+	public float scanTime = 0.3f;
 	
 	void Start() {
-		player = GameObject.Find("Player_Kenji_Aeon");
+		player = GameObject.FindGameObjectWithTag("Aeon");
 		StartCoroutine("scanTimeout");
 	}
 	
 	private void OnTriggerEnter2D(Collider2D collision){
 		if(collision.gameObject.tag == "Enemy"){
 			player.GetComponent<Player_Kenji_Aeon_Control>().attack(collision.gameObject);
-			Destroy(this);
+			Destroy(this.gameObject);
 		}
 		
 	}
@@ -23,7 +23,7 @@ public class Player_Kenji_Aeon_Scan : MonoBehaviour {
 	
 	IEnumerator scanTimeout(){	
 		yield return new WaitForSeconds(scanTime);
-		Destroy(this);
+		Destroy(this.gameObject);
 	}
 	
 }

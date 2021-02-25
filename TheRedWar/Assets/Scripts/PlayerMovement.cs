@@ -46,7 +46,7 @@ public class PlayerMovement : MonoBehaviour {
 				movementX = Input.GetAxis("Horizontal");	
 				movementY = Input.GetAxis("Vertical");
 				
-				if((Input.GetButtonDown("Jump") || movementY == 1) && canJump){
+				if((Input.GetButtonDown("Jump") | movementY == 1) && canJump){
 					
 					// -- 1 way platforms jump -- 
 					setOneWayPlatforms(0f);

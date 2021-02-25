@@ -7,8 +7,10 @@ public class GameMaster : MonoBehaviour {
 	private static GameMaster instanceGameMaster;
 	public Vector2 lastCheckPointPos;
 	public Transform LevelStart;
+	public string selectedCharacter;
 	[HideInInspector]
 	public bool restartSpawnPos;
+	
 
     void Awake() {
         if(instanceGameMaster == null) { 
@@ -26,7 +28,10 @@ public class GameMaster : MonoBehaviour {
 			instanceGameMaster.restartSpawnPos = false;
 		}
 		
+		//set selected character to default character
+		selectedCharacter = "default";
+		
     }
 	
-
+	
 }

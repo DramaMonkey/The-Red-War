@@ -19,6 +19,8 @@ TagManager:
   - MainMenu_LevelSelect
   - LevelStart
   - bossHealthBar
+  - Aeon
+  - MainMenu_CharacterSelect
   layers:
   - Default
   - TransparentFX

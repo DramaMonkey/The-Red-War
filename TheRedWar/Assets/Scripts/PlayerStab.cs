@@ -10,6 +10,8 @@ public class PlayerStab : MonoBehaviour {
 	public GameObject swordPrefab;
 	public GameObject sword;
 	
+	public Animator anim;
+	
 	public GameObject player;
 	private PlayerAttackControl pac;
 	
@@ -42,8 +44,10 @@ public class PlayerStab : MonoBehaviour {
 			flip = true;
 		}
 		
-		// create this and this position with this angle - using gameObjects to input pos and angle
 		
+		
+		// create this and this position with this angle - using gameObjects to input pos and angle
+		anim.SetTrigger("stabAttack");
 		
 		sword = Instantiate(swordPrefab, firingPoint.position, Quaternion.Euler(new Vector3(0f, 0f, 0f)));
 		StartCoroutine(swordMotion(sword));
@@ -61,7 +65,7 @@ public class PlayerStab : MonoBehaviour {
 		//sword.transform.parent = gameObject.transform;
 		
 		sword.GetComponent<SpriteRenderer>().flipY = flip;
-		yield return new WaitForSeconds(0.25f);
+		yield return new WaitForSeconds(0.15f);
 		sword.GetComponent<Bullet>().bulletSpeed = -sword.GetComponent<Bullet>().bulletSpeed;
 	}
 	

@@ -28,9 +28,9 @@ public class PauseMenu : MonoBehaviour{
 		}
 	}
 	
-	public void Reload(){
+	/*public void Reload(){
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-	}
+	}*/
 	
 	public void pauseControl(){
 		if(Time.timeScale == 1)

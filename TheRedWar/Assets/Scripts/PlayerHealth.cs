@@ -12,12 +12,13 @@ public class PlayerHealth : MonoBehaviour{
 	float damageToPlayer;
 	
 	public Rigidbody2D rb; 
-	public HealthBar healthBar;
+	private HealthBar healthBar;
 	
 	SpriteRenderer sprite;
 
 	private void Start(){
-		 sprite = GetComponent<SpriteRenderer>();
+		healthBar = GameObject.FindGameObjectWithTag("HealthBar").GetComponent<HealthBar>();
+		sprite = GetComponent<SpriteRenderer>();
 	}
 
 	private void OnCollisionStay2D(Collision2D collision){
@@ -57,6 +58,7 @@ public class PlayerHealth : MonoBehaviour{
 				
 				
 				curHealth -= damageDealt;
+				
 				healthBar.SetHealth( curHealth );
 				
 				StartCoroutine("iframe_Flash");

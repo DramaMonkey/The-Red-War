@@ -9,8 +9,20 @@ public class Bullet : MonoBehaviour {
 	public bool destroyOnHit = true;
 	public Rigidbody2D rb;
 	
+	public bool OnAttackEffectSetting = false;
+	public GameObject onAttackEffect;
+	private GameObject attackEffect;
+	public float attackEffectTime;
+	
 	private void Awake(){
 		StartCoroutine(bulletTimeout());
+	}
+	
+	private void Start(){
+		if(OnAttackEffectSetting == true){
+			attackEffect = Instantiate(onAttackEffect, transform);
+			StartCoroutine(effectTimeout(attackEffect));
+		}
 	}
 	
 	private void FixedUpdate(){
@@ -36,6 +48,11 @@ public class Bullet : MonoBehaviour {
 	}
 	
 	
+	
+	IEnumerator effectTimeout(GameObject effectObject) {
+		yield return new WaitForSeconds(attackEffectTime);
+		Destroy(effectObject);
+	}
 	
 	IEnumerator bulletTimeout() {
 		yield return new WaitForSeconds(bulletTimeoutTime);

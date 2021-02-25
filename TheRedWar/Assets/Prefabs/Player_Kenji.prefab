@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1652204791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1652204792}
+  m_Layer: 0
+  m_Name: AeonPos
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1652204792
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652204791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.61, y: 0.73, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7725654205502447552}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7725654205502447580
 GameObject:
   m_ObjectHideFlags: 0
@@ -14,15 +44,16 @@ GameObject:
   - component: {fileID: 7725654205502447581}
   - component: {fileID: 7725654205502447553}
   - component: {fileID: 7725654205502447558}
-  - component: {fileID: 7725654205502447559}
   - component: {fileID: 8123330531523554539}
   - component: {fileID: 1950478540}
   - component: {fileID: 1700112151}
   - component: {fileID: 1312450330}
+  - component: {fileID: 1019529793}
+  - component: {fileID: 1019529799}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player_Kenji
   m_TagString: Player
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -39,6 +70,7 @@ Transform:
   m_Children:
   - {fileID: 7725654205610331209}
   - {fileID: 7725654205569395910}
+  - {fileID: 1652204792}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -81,7 +113,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30
-  m_Sprite: {fileID: 1197855320226781875, guid: abe909bb4ec3fc74c87104b9cecc0e99,
+  m_Sprite: {fileID: 5983872638701215426, guid: 305929807da1e6745a11abc9fa37e69b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -182,23 +214,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7725654205502447559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7725654205502447580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d301147e14a9c64788bd96df502006d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fireRate: 0.2
-  firingPoint: {fileID: 7725654205569395910}
-  bulletPrefab: {fileID: 6234722617831100153, guid: 33637e30e543eba499250ec21faa6f08,
-    type: 3}
-  player: {fileID: 7725654205502447580}
 --- !u!114 &8123330531523554539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,6 +275,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player_GlobalAttackCooldown: 0
+--- !u!114 &1019529793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725654205502447580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61d5419404dc697488a292b1134a190e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aeon_Scan: {fileID: 6977452163608601866, guid: bbe483d75fcb6cd489ee2d13322e22ef,
+    type: 3}
+--- !u!114 &1019529799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7725654205502447580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cab014a73ee5734c83efeb6fd11c1c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Aeon_Spawn: {fileID: 1652204791}
+  Player_Kenji_Aeon: {fileID: 3312710863599261528, guid: 7d9a6b4649b24a9458016a14448e7c6a,
+    type: 3}
 --- !u!1 &7725654205569395905
 GameObject:
   m_ObjectHideFlags: 0

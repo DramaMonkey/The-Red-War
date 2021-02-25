@@ -8,11 +8,14 @@ public class Player_Kenji_Aeon_Attack : MonoBehaviour
 	Vector3 mousePos;
 	public GameObject aeon_Scan;
 	private GameObject currentScan;
+	public Animator anim;
 	
 	
 	private void Update() {
 		if(Input.GetMouseButtonDown(1)){
-
+			
+			anim.SetTrigger("specialAttack");
+			
 			mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 			
 			
